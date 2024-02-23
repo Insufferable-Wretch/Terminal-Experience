@@ -1,8 +1,12 @@
 import sys, time
 
 def get_usr_in(task="root"):
-  cmd = input(f"*#/\\.-<>[{task}] ").lower()
-  cmd = cmd.split(" ")
+  cmds = input(f"*#/\\.-<>[{task}] ").lower()
+
+  cmds = cmds.split(" ")
+  # Note make a list of potential cmds, etc.
+  for cmd in cmds:
+    if cmd == 'query'
   debug(cmd)
 
 def aes_render(str, delay=0.005):
