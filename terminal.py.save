@@ -12,5 +12,4 @@ ass.print_banner(2)
 running = True
 while running:
   cmd = util.get_usr_in()
-  print(cmd)
   running = False
